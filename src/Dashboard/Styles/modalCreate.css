@@ -1,0 +1,62 @@
+@import url('../../Styles/src/variables.css');
+
+
+.msg-border h3{
+    border: 1px solid var(--border-color);
+    border-radius: 31px;
+    background-color: var(--fill-color);
+    color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: 16px;
+}
+.sender-msg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+.reciver-msg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    padding: 20px 0px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+  }
+  
+  .chat-input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+  }
+  
+  .chat-input:focus-visible{
+    border: none;
+    outline: none;
+  }
+  .send-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .add-model{
+    background-color: var(--fill-color);
+    margin-top: 15px;
+  }
+  .modal-chat-back{
+    border: 1px solid var(--border-color);
+
+  }

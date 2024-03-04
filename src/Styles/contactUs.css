@@ -1,0 +1,86 @@
+@import url('./src/variables.css');
+/*-------------------------join-our-network---------------------------*/
+.join-network_Wrapper {
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../Assets/images/about-us-bg-section-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    /* / align-items: center; / */
+    width: 100%;
+    flex-direction: row;
+    color: white;
+}
+
+.join-network_Wrapper>div {
+    padding: 50px 50px;
+}
+
+.join-network_Wrapper>div>div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    /* / align-items: center; / */
+}
+
+.join-network-contact_form {
+    width: 100%;
+    max-width: 1000px;
+    /* / justify-content: center; / */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.join-network-contact_form>div {
+    margin: 0 10px 30px 10px;
+}
+
+.send-btn-join-network{
+    margin: 0 10px 
+    0px 10px;
+}
+.join-network-contact_form input,
+.join-network-contact_form textarea {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 20px;
+    border: 1px solid white;
+    color: white !important;
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+.join-network-contact_form input::placeholder,
+.join-network-contact_form textarea::placeholder {
+    color: white;
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+.join-network-contact_form input:focus,
+.join-network-contact_form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    box-shadow: none;
+    border: 1px solid white;
+
+}
+
+.join-network-contact_form+div>button {
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+.join-network-contact_form+div>button:focus {
+    background-color: transparent;
+    border: 1px solid white;
+
+}

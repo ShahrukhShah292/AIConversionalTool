@@ -1,0 +1,8 @@
+:root {
+    --heading-font: 'Nunito', sans-serif;
+    --body-font: 'Nunito Sans', sans-serif;
+    /* colors */
+    --fill-color: #252525;
+    --border-color: #828282;
+    --highlight-color: #37ACFD;
+}
